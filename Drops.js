@@ -16,8 +16,10 @@ class Drops {
     }
 }
 
-function update() {
-    if(this.drops.position.y > height) {
-        Matter.Body.setPosition(this.drops, {x: random(0, 400), y: random(0, 400)})
-    }
-}
+    function update() {
+        if(this.drops.position.y > height) {
+            Matter.Body.setPosition(this.drops, {x: random(0, 400), y: random(0, 400)})
+        }
+    }       
+
+
